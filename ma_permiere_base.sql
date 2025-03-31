@@ -1,0 +1,8 @@
+CREATE DATABASE videotheque ;
+USE videotheque ;
+CREATE TABLE film (
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	titre VARCHAR(50) NOT NULL,
+    sortie DATE NOT NULL,
+    CONSTRAINT pk_film 	PRIMARY KEY (id)
+) ENGINE = INOB ; 
